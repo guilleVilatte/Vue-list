@@ -1,7 +1,9 @@
 <template>
-  <div v-if="user">
-    <p>{{ user.name }}</p>
-    <p>{{ user.email }}</p>
+  <div v-if="user" class="info">
+    <p>Name: {{ user.name }}</p>
+    <p>Email: {{ user.email }}</p>
+  </div>
+  <div>
     <button @click="$router.back()">Volver</button>
   </div>
 </template>

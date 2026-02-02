@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="inputs">
     <input
       placeholder="Nombre"
       :value="name"

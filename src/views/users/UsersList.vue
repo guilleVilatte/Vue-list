@@ -1,6 +1,6 @@
 <template>
   <section>
-    <RouterLink to="/usuarios/nuevo">
+    <RouterLink class="btn" to="/usuarios/nuevo">
       Crear usuario
     </RouterLink>
 
